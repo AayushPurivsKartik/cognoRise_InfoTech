@@ -1,0 +1,32 @@
+body{
+    background-color: brown;
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    background-color: gray;
+    height: 500px;
+    width: 500px;
+    margin: 29px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* transition: all 0.8s ease-in-out; */
+}
+  
+.display {
+    grid-column: 1 / -1;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 1.5em;
+}
+  
+button {
+    padding: 10px;
+    font-size: 1.2em;
+}
+.calculator:hover{
+    box-shadow: 9px 9px 25px black;
+}
+  
